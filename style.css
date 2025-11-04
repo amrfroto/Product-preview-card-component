@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px; /* حسب الـ Style Guide */
+    /* color: hsl(228, 12%, 48%); Grey */
+}
+
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 660px;
+    height:500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* .img-perfume-box{
+    width: 350px;
+
+} */
+
+
+.img-perfume{
+width: 330px;
+height: 500px;
+display: block;
+}
+
+.info-perfume{
+width: 330px;
+height:500px;
+background-color: white;
+
+}
+
+p,h1,h2,button{
+    margin-left: 35px ;
+}
+
+p{
+    color:gray  ;
+}
+
+.type-name{
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.name-perfume{
+    margin-top: 18px;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.pra-perfume{
+    margin-top: 25px;
+    font-size: 15px;
+line-height: 1.5;
+}
+
+
+.perfume-price{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color:hsl(158, 36%, 37%) ;
+}
+
+
+.old-price{
+text-decoration: line-through;
+}
+
+.perfum-btn{
+margin-top: 25px;
+background-color: hsl(158, 36%, 37%);
+font-size: 20px;
+color: white;
+height: 60px;
+width: 250px;
+border-radius: 5px;
+border: none;
+}
