@@ -1,0 +1,69 @@
+.perfume-info{
+background-color: var(--color-white);
+width: 330px;
+height: 100%;
+padding: 35px;
+}
+ 
+.type-product{
+    color: var(--color-gray-text);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.name-perfume{
+font-family: var(--font-secondary);
+margin-top: 20px;
+line-height: 1.2;
+}
+
+.pra-perfume{
+   margin-top: 20px; 
+   color: var(--color-gray-text);
+   line-height: 1.5;
+}
+
+.price{
+    display: flex;
+    margin-top: 30px;
+       align-items: center;
+    gap: 15px;
+}
+
+.perfume-price{
+    font-size: 30px;
+    font-family: var(--font-secondary);
+    color: var(--color-dark-cyan);
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: var(--color-gray-text);
+}
+
+.btn-buy{
+color: var(--color-white);
+background-color:var(--color-dark-cyan);
+font-size: 20px;
+font-weight: bold;
+border: none;
+width: 250px;
+height: 50px;
+margin-top: 25px;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+cursor: pointer;
+transition:background-color 0.3s ;
+}
+
+.btn-buy:hover{
+background-color: var(--color-dark-cyan-hover);
+}
+
+.icon-cart{
+    width: 14px;
+    height: 16px;           
+}
